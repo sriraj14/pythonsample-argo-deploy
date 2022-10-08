@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: python-app
-          image: sriraj14/simplepython
+          image: sriraj14/simplepython:c2036b4a598d8b6b650d1a077de3c984e887f8fd
           ports:
             - containerPort: 5000
